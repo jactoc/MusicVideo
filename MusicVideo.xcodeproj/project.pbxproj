@@ -77,9 +77,9 @@
 		6C18922D1DC199080073A2DB = {
 			isa = PBXGroup;
 			children = (
-				6C1892381DC199080073A2DB /* MusiVideo */,
-				6C18924D1DC199090073A2DB /* MusiVideoTests */,
-				6C1892581DC199090073A2DB /* MusiVideoUITests */,
+				6C1892381DC199080073A2DB /* MusicVideo */,
+				6C18924D1DC199090073A2DB /* MusicVideoTests */,
+				6C1892581DC199090073A2DB /* MusicVideoUITests */,
 				6C1892371DC199080073A2DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,35 +94,70 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C1892381DC199080073A2DB /* MusiVideo */ = {
+		6C1892381DC199080073A2DB /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
+				6CAADD0A1DC19ED500880CDB /* Supporting Files */,
+				6CAADD071DC19E8B00880CDB /* Model */,
 				6C1892391DC199080073A2DB /* AppDelegate.swift */,
-				6C18923B1DC199080073A2DB /* ViewController.swift */,
-				6C18923D1DC199080073A2DB /* Main.storyboard */,
-				6C1892401DC199080073A2DB /* Assets.xcassets */,
-				6C1892421DC199080073A2DB /* LaunchScreen.storyboard */,
-				6C1892451DC199080073A2DB /* Info.plist */,
+				6CAADD081DC19E9900880CDB /* Controller */,
+				6CAADD091DC19EC000880CDB /* View */,
 			);
+			name = MusicVideo;
 			path = MusiVideo;
 			sourceTree = "<group>";
 		};
-		6C18924D1DC199090073A2DB /* MusiVideoTests */ = {
+		6C18924D1DC199090073A2DB /* MusicVideoTests */ = {
 			isa = PBXGroup;
 			children = (
 				6C18924E1DC199090073A2DB /* MusiVideoTests.swift */,
 				6C1892501DC199090073A2DB /* Info.plist */,
 			);
+			name = MusicVideoTests;
 			path = MusiVideoTests;
 			sourceTree = "<group>";
 		};
-		6C1892581DC199090073A2DB /* MusiVideoUITests */ = {
+		6C1892581DC199090073A2DB /* MusicVideoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				6C1892591DC199090073A2DB /* MusiVideoUITests.swift */,
 				6C18925B1DC199090073A2DB /* Info.plist */,
 			);
+			name = MusicVideoUITests;
 			path = MusiVideoUITests;
+			sourceTree = "<group>";
+		};
+		6CAADD071DC19E8B00880CDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6CAADD081DC19E9900880CDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C18923B1DC199080073A2DB /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6CAADD091DC19EC000880CDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C18923D1DC199080073A2DB /* Main.storyboard */,
+				6C1892421DC199080073A2DB /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6CAADD0A1DC19ED500880CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1892401DC199080073A2DB /* Assets.xcassets */,
+				6C1892451DC199080073A2DB /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +540,7 @@
 				6C1892601DC199090073A2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C1892611DC199090073A2DB /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +549,7 @@
 				6C1892631DC199090073A2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C1892641DC199090073A2DB /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +558,7 @@
 				6C1892661DC199090073A2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
