@@ -14,6 +14,8 @@
 		6C1892441DC199080073A2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1892421DC199080073A2DB /* LaunchScreen.storyboard */; };
 		6C18924F1DC199090073A2DB /* MusiVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18924E1DC199090073A2DB /* MusiVideoTests.swift */; };
 		6C18925A1DC199090073A2DB /* MusiVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1892591DC199090073A2DB /* MusiVideoUITests.swift */; };
+		6C298DCB1DC2D9C60033A274 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C298DCA1DC2D9C60033A274 /* Constant.swift */; };
+		6C298DCD1DC2DBC40033A274 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C298DCC1DC2DBC40033A274 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6C1892551DC199090073A2DB /* MusicVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1892591DC199090073A2DB /* MusiVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiVideoUITests.swift; sourceTree = "<group>"; };
 		6C18925B1DC199090073A2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C298DCA1DC2D9C60033A274 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6C298DCC1DC2DBC40033A274 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		6CAADD071DC19E8B00880CDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6C298DCC1DC2DBC40033A274 /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				6C1892401DC199080073A2DB /* Assets.xcassets */,
 				6C1892451DC199080073A2DB /* Info.plist */,
+				6C298DCA1DC2D9C60033A274 /* Constant.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -295,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C298DCD1DC2DBC40033A274 /* APIManager.swift in Sources */,
 				6C18923C1DC199080073A2DB /* ViewController.swift in Sources */,
 				6C18923A1DC199080073A2DB /* AppDelegate.swift in Sources */,
+				6C298DCB1DC2D9C60033A274 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jactoc.MusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -466,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jactoc.MusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
