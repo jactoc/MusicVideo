@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     
-    func didLoadData(result:String) {
+    func didLoadData(result: String) {
         
         let alert = UIAlertController(title: result, message: nil, preferredStyle: .Alert)
         
